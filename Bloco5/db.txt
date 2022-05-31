@@ -1,0 +1,12 @@
+create dabases teste;
+use teste;
+
+create table alunos(
+
+id int not null AUTO_INCREMENT,
+
+nome varchar(255),
+
+PRIMARY KEY(id)
+
+);
