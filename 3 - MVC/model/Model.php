@@ -17,7 +17,10 @@ class Model{
         try {
             // conecta com o banco
             $this->pdo = new PDO(
-                "mysql:host=$this->host;port=$this->porta;dbname=$this->base",
+                "mysql:host=$this->host;
+
+                    port=$this->porta;
+                    dbname=$this->base",
             $this->usuario,
             $this->senha
             );
@@ -35,4 +38,3 @@ class Model{
     }
 
 }
- 

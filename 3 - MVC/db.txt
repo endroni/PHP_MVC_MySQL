@@ -1,5 +1,6 @@
-create dabases teste;
-use teste;
+create dabases db_alunos;
+
+use db_alunos;
 
 create table alunos(
 
